@@ -1,17 +1,20 @@
 # Grand-Prix
-Terminal: 
+
+## 📦 Instalação
+```bash
 pip install numpy
 pip install opencv-python
 pip install opencv-contrib-python
 
-Execute para ativar o venv:
-/n (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned)
+## ⚙️Ativar ambiente virtual
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
 
+## 🔍 Conferir pacotes instalados
 pip show numpy
 pip show opencv-python
 
-Para rodar:
+## ▶️ Rodar aplicação
 python app.py
 
-
+## 📑 Instalar dependências do projeto
 pip install -r requirements.txt
